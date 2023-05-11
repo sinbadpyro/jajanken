@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1></h1>
+        <div class="flex-container">
+            <div class="yourbox flexed">
+                <h1>YOU</h1>
+                <h2>Your Score: <span id="yourscore">0</span> </h2>
+                <img src="" id="yourimage" alt="">
+            </div>
+
+            <div class="opponent-box flexed">
+                <h1>Computer</h1>
+                <h2 id="computerscore">Computer's Score:</h2>
+                <img src="" id="computerimage" alt="">
+            </div>
+        </div>
+
+
+        <div class="image-list">
+            <img src="targ.png" onclick="ShowYourImageTarg()" alt="">
+            <img src="night.jpg" onclick="ShowYourImageNight()" alt="">
+            <img src="dragon.jpg" onclick="ShowYourImageDragon()" alt="">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

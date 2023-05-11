@@ -1,0 +1,41 @@
+body{
+    background: #ffffff url("Gameofthrones.jpg") no-repeat center top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.flexed>img{
+    width: 70%;
+    height: 350px;
+}
+.image-list{
+    width: 60%;
+    margin:auto;
+    background-color: #0d1e38;
+    padding: 2em;
+    display: flex;
+    border-radius: 1em;
+    /*position: relative;
+    top: 15em;*/
+    justify-content: center;
+}
+
+.image-list>img{
+    width: 30%;
+    border-radius: 100%;
+    margin: 5px;
+}
